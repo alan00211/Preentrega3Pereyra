@@ -92,8 +92,7 @@ while (ciclo!=2)
     }
 
     ciclo=parseInt (prompt ("Ingrese opcion 1 para volver a ejecutar la aplicacion u opcion 2 para finalizar"));
-    ciclo= validaCiclo (ciclo);
-    
+    ciclo= validaCiclo (ciclo); 
 }
 
 alert (`Aplicacion Finalizada`);
