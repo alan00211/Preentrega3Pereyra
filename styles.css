@@ -56,3 +56,49 @@ button:hover {
 .actualizar, .filtrar, .historial, .resultadoDeOpciones{
     display: none;
 }
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-family: 'Roboto', sans-serif; /* Utiliza una fuente similar a la de Material Design */
+  }
+  
+  /* Estilos para las celdas de encabezado */
+  th {
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: 500;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Estilos para las celdas de datos */
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilo para resaltar filas al pasar el mouse sobre ellas */
+  tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilo para la primera fila (encabezado) */
+  tr:first-child {
+    background-color: #e0e0e0;
+  }
+  
+  /* Estilo para las celdas de datos en la primera columna (si tienes una columna de código, por ejemplo) */
+  td:first-child {
+    font-weight: 500;
+    color: #007bff; /* Color de enlace típico de Material Design */
+  }
+  
+  /* Agrega margen y sombra para una apariencia de elevación (elevation) */
+  table {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+  

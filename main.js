@@ -154,17 +154,29 @@ function listarProductos() {
     // if (articulos.length === 0) {
     //     contenedor.innerHTML = "No hay articulos disponibles.";
     // } else {
-    let detalles = "<h2>Detalles de todos los articulos:</h2><ul>";
-    articulos.forEach((articulo, item) => 
+    let detalles = `<h2>Articulos</h2><table>
+    <tr>
+        <th><b>Codigo<b></th>
+        <th><b>Nombre<b></th>
+        <th><b>Descripcion<b></th>
+        <th><b>Precio<b></th>
+        <th><b>Categoria<b></th>
+        <th><b>Actualizar Precio<b></th>
+    </tr>`;
+    articulos.forEach((articulo) => 
     {
-        detalles += `<li><strong>Articulo ${item + 1}:</strong><br>
-                Codigo: ${articulo.codigo}<br>
-                Nombre: ${articulo.nombre}<br>
-                Descripcion: ${articulo.descripcion}<br>
-                Precio: ${articulo.precio}<br>
-                Categoria: ${articulo.categoria}<br><br></li>`;
+        detalles += `
+        <tr>
+            <td>${articulo.codigo}</td>
+            <td>${articulo.nombre}</td>
+            <td>${articulo.descripcion}</td>
+            <td>${articulo.precio}</td>
+            <td>${articulo.categoria}</td>
+            <td><button type="button" id="articuloBtn">Actualizar</button></td>
+        </tr>
+    `;
     });
-        detalles += "</ul>";
+    detalles += `</table>`;
         contenedor.innerHTML = detalles;
     }
 // }
@@ -227,4 +239,5 @@ function filtrarPorCategoria() {
     }
 }
 
+document.getElementById("resultadoDeOpciones").style.display = "block";
 listarProductos();
