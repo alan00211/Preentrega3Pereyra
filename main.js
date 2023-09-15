@@ -172,7 +172,7 @@ function listarProductos() {
             <td>${articulo.descripcion}</td>
             <td>${articulo.precio}</td>
             <td>${articulo.categoria}</td>
-            <td><button type="button" id="articuloBtn">Actualizar</button></td>
+            <td><button type="button" id="articuloBtn${articulo.codigo}">Actualizar</button></td>
         </tr>
     `;
     });
