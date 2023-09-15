@@ -142,33 +142,36 @@ articulos.push(new Productos({codigo:2, nombre:"mouse", descripcion:"M90", preci
 articulos.push(new Productos({codigo:3, nombre:"monitor", descripcion:"S90", precio:120000, categoria:"hardware"}));
 
 
+
+
+
 //Funcion para listar prodcutos
 
 function listarProductos() {
     const contenedor = document.getElementById("resultadoDeOpciones");
     contenedor.innerHTML = ""; // Limpia el contendor actual
 
-    if (articulos.length === 0) {
-        contenedor.innerHTML = "No hay articulos disponibles.";
-    } else {
-        let detalles = "<h2>Detalles de todos los articulos:</h2><ul>";
-
-        articulos.forEach((articulo, item) => {
-            detalles += `<li><strong>Articulo ${item + 1}:</strong><br>
+    // if (articulos.length === 0) {
+    //     contenedor.innerHTML = "No hay articulos disponibles.";
+    // } else {
+    let detalles = "<h2>Detalles de todos los articulos:</h2><ul>";
+    articulos.forEach((articulo, item) => 
+    {
+        detalles += `<li><strong>Articulo ${item + 1}:</strong><br>
                 Codigo: ${articulo.codigo}<br>
                 Nombre: ${articulo.nombre}<br>
                 Descripcion: ${articulo.descripcion}<br>
                 Precio: ${articulo.precio}<br>
                 Categoria: ${articulo.categoria}<br><br></li>`;
-        });
+    });
         detalles += "</ul>";
         contenedor.innerHTML = detalles;
     }
-}
+// }
 
 function actualizarPrecio() {
     document.getElementById("resultadoDeOpciones").style.display = "block";    //Muestra el contenedor
-    let nombreProducto = document.getElementById("actualizarTxt").value;
+    let nombreProducto = document.getElementById("actualizarTxt").value.toLowerCase();
     let nuevoPrecio = document.getElementById("nuevoPrecio").value;
     nuevoPrecio = parseFloat(nuevoPrecio);
     let productoActualizado = articulos.find((item) => item.nombre === nombreProducto);
@@ -199,7 +202,7 @@ function actualizarPrecio() {
 
 function filtrarPorCategoria() {
     document.getElementById("resultadoDeOpciones").style.display = "block"; //Muestra el contenedor
-    let nombreCategoria = document.getElementById("filtrarTxt").value;
+    let nombreCategoria = document.getElementById("filtrarTxt").value.toLowerCase();
     if (nombreCategoria.trim() === "") {
         document.getElementById("resultadoDeOpciones").innerHTML = "Por favor, ingrese un nombre de categoria.";
         return; // Salir de la funcion si no se ingreso a una categoria
@@ -223,3 +226,5 @@ function filtrarPorCategoria() {
         document.getElementById("resultadoDeOpciones").innerHTML = "No se encontraron productos en esta categoria.";
     }
 }
+
+listarProductos();
