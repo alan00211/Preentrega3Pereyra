@@ -1,20 +1,32 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #ddd;
+  margin: 0;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .contenedor {
-    text-align: center;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los inputs en el modo oscuro */
+input[type="number"],
+input[type="text"] {
+  background-color: #333;
+  color: #dddddd;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
 }
 
 .contenedor h1 {
@@ -41,64 +53,64 @@ button {
 }
 
 button {
-    cursor: pointer;
-    background-color: #007acc;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+  cursor: pointer;
+  background-color: #005c99; /* Tono de azul más suave */
+  color:  #ddd; /* Gris para las letras */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 button:hover {
-    background-color: #005c99;
+  background-color: #004c80; /* Tono de azul más oscuro al pasar el mouse */
 }
 
-.actualizar, .filtrar, .historial, .resultadoDeOpciones{
-    display: none;
-}
+
+
 /* Estilos para la tabla */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 16px 0;
-    font-family: 'Roboto', sans-serif; /* Utiliza una fuente similar a la de Material Design */
-  }
-  
-  /* Estilos para las celdas de encabezado */
-  th {
-    background-color: #f5f5f5;
-    color: #333;
-    font-weight: 500;
-    padding: 8px;
-    text-align: left;
-    border-bottom: 2px solid #ddd;
-  }
-  
-  /* Estilos para las celdas de datos */
-  td {
-    padding: 8px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  /* Estilo para resaltar filas al pasar el mouse sobre ellas */
-  tr:hover {
-    background-color: #f0f0f0;
-  }
-  
-  /* Estilo para la primera fila (encabezado) */
-  tr:first-child {
-    background-color: #e0e0e0;
-  }
-  
-  /* Estilo para las celdas de datos en la primera columna (si tienes una columna de código, por ejemplo) */
-  td:first-child {
-    font-weight: 500;
-    color: #007bff; /* Color de enlace típico de Material Design */
-  }
-  
-  /* Agrega margen y sombra para una apariencia de elevación (elevation) */
-  table {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 16px;
-  }
-  
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent; /* Fondo transparente para evitar el blanco al pasar el mouse */
+}
+/* Estilos para las celdas de encabezado en el modo oscuro */
+th {
+  background-color: #333;
+  color: #ddd;
+  font-weight: 500;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #555;
+}
+
+/* Estilos para las celdas de datos en el modo oscuro */
+td {
+  padding: 8px;
+  border-bottom: 1px solid #555;
+  transition: background-color 0.2s ease-in-out; /* Transición suave para el cambio de color al pasar el mouse */
+}
+
+/* Estilo para resaltar filas al pasar el mouse sobre ellas en el modo oscuro */
+tr:hover {
+  background-color: #444;
+}
+
+/* Estilo para la primera fila (encabezado) en el modo oscuro */
+tr:first-child {
+  background-color: #333;
+}
+
+/* Estilo para las celdas de datos en la primera columna en el modo oscuro */
+td:first-child {
+  font-weight: 500;
+  color: #2e6fb4;
+}
+
+/* Agrega margen y sombra para una apariencia de elevación (elevation) */
+table {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
