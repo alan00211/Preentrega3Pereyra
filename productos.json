@@ -1,0 +1,212 @@
+[
+    {
+        "codigo": 1,
+        "nombre": "Teclado",
+        "descripcion": "K90",
+        "precio": 20000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 2,
+        "nombre": "Mouse",
+        "descripcion": "M90",
+        "precio": 10000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 3,
+        "nombre": "Monitor",
+        "descripcion": "S90",
+        "precio": 120000,
+        "categoria": "Hardware"
+    },
+    {
+        "codigo": 4,
+        "nombre": "Monitor",
+        "descripcion": "F30",
+        "precio": 150000,
+        "categoria": "Gaming"
+    },
+    {
+        "codigo": 5,
+        "nombre": "Joystick",
+        "descripcion": "Xbox One X",
+        "precio": 654,
+        "categoria": "Gaming"
+    },
+    {
+        "codigo": 6,
+        "nombre": "Auriculares",
+        "descripcion": "A50",
+        "precio": 8000,
+        "categoria": "Audio"
+    },
+    {
+        "codigo": 7,
+        "nombre": "Silla Gaming",
+        "descripcion": "GamingPro",
+        "precio": 25000,
+        "categoria": "Gaming"
+    },
+    {
+        "codigo": 8,
+        "nombre": "Tarjeta Gráfica",
+        "descripcion": "GTX 3080",
+        "precio": 150000,
+        "categoria": "Hardware"
+    },
+    {
+        "codigo": 9,
+        "nombre": "Impresora",
+        "descripcion": "LaserJet",
+        "precio": 50000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 10,
+        "nombre": "Teclado Inalámbrico",
+        "descripcion": "K55",
+        "precio": 25000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 11,
+        "nombre": "Ratón Bluetooth",
+        "descripcion": "B120",
+        "precio": 8000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 12,
+        "nombre": "Monitor Curvo",
+        "descripcion": "C75",
+        "precio": 180000,
+        "categoria": "Hardware"
+    },
+    {
+        "codigo": 13,
+        "nombre": "Teclado Mecánico",
+        "descripcion": "M120",
+        "precio": 30000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 14,
+        "nombre": "Auriculares Inalámbricos",
+        "descripcion": "A60",
+        "precio": 12000,
+        "categoria": "Audio"
+    },
+    {
+        "codigo": 15,
+        "nombre": "Silla Ergonómica",
+        "descripcion": "ErgoPro",
+        "precio": 35000,
+        "categoria": "Oficina"
+    },
+    {
+        "codigo": 16,
+        "nombre": "Tarjeta de Sonido",
+        "descripcion": "SoundBlaster",
+        "precio": 6000,
+        "categoria": "Audio"
+    },
+    {
+        "codigo": 17,
+        "nombre": "Procesador",
+        "descripcion": "i7-10700K",
+        "precio": 280000,
+        "categoria": "Hardware"
+    },
+    {
+        "codigo": 18,
+        "nombre": "Altavoces Bluetooth",
+        "descripcion": "BT Speakers",
+        "precio": 4000,
+        "categoria": "Audio"
+    },
+    {
+        "codigo": 19,
+        "nombre": "Escáner",
+        "descripcion": "ScanMaster",
+        "precio": 35000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 20,
+        "nombre": "Tableta Gráfica",
+        "descripcion": "ArtPad",
+        "precio": 22000,
+        "categoria": "Arte"
+    },
+    {
+        "codigo": 21,
+        "nombre": "Monitor Ultrawide",
+        "descripcion": "UW180",
+        "precio": 220000,
+        "categoria": "Gaming"
+    },
+    {
+        "codigo": 22,
+        "nombre": "Teclado RGB",
+        "descripcion": "RGB-K70",
+        "precio": 28000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 23,
+        "nombre": "Webcam Full HD",
+        "descripcion": "CamHD",
+        "precio": 15000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 24,
+        "nombre": "Auriculares In-Ear",
+        "descripcion": "InEar Pro",
+        "precio": 5000,
+        "categoria": "Audio"
+    },
+    {
+        "codigo": 25,
+        "nombre": "Silla de Oficina",
+        "descripcion": "OfficePro",
+        "precio": 18000,
+        "categoria": "Oficina"
+    },
+    {
+        "codigo": 26,
+        "nombre": "Proyector Full HD",
+        "descripcion": "ProHD",
+        "precio": 75000,
+        "categoria": "Presentación"
+    },
+    {
+        "codigo": 27,
+        "nombre": "Teclado Mecánico RGB",
+        "descripcion": "MecRGB",
+        "precio": 35000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 28,
+        "nombre": "Mouse Inalámbrico",
+        "descripcion": "WirelessMouse",
+        "precio": 12000,
+        "categoria": "Periféricos"
+    },
+    {
+        "codigo": 29,
+        "nombre": "Auriculares Over-Ear",
+        "descripcion": "OverEar Pro",
+        "precio": 15000,
+        "categoria": "Audio"
+    },
+    {
+        "codigo": 30,
+        "nombre": "Impresora Multifuncional",
+        "descripcion": "Multifunción 2000",
+        "precio": 55000,
+        "categoria": "Periféricos"
+    }
+]

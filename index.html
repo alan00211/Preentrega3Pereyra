@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">  
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,22 +11,19 @@
         <h1>Actualizador de Precios</h1>
         <div id="actualizar" class="actualizar">
             <label for="categoriaFiltro">Filtrar por Categoría:</label>
-<select id="categoriaFiltro">
-    <option value="todos">Todos</option>
-    
-</select>
-<button id="filtrarBtn">Filtrar</button>
-
-            <!-- <button id="historialActualizarBtn">Historial de Actualizar</button> -->
+            <select id="categoriaFiltro">
+                <option value="todos">Todos</option>
+            </select>
+            <button id="filtrarBtn">Filtrar</button>
+            <div id="buscador" class="buscador">
+                <label for="productoBusqueda">Buscar Producto:</label>
+                <input type="text" id="productoBusqueda" placeholder="Nombre del producto">
+            </div>
         </div>
-        <!-- <div id="filtrar" class="filtrar">  
-            <button id="historialFiltrarBtn">Historial de Filtrar</button>
-        </div> -->
         <div id="resultadoDeOpciones" class="resultadoDeOpciones"></div>
-        
-        <div id="historial" class="historial"></div> 
     </div>
-    
+
     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

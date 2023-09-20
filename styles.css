@@ -54,7 +54,7 @@ button {
 
 button {
   cursor: pointer;
-  background-color: #005c99; /* Tono de azul más suave */
+  background-color: #005c99; /* Tono de azul mas suave */
   color:  #ddd; /* Gris para las letras */
   border: none;
   padding: 10px 20px;
@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-  background-color: #004c80; /* Tono de azul más oscuro al pasar el mouse */
+  background-color: #004c80; /* Tono de azul mas oscuro al pasar el mouse */
 }
 
 
@@ -108,7 +108,7 @@ td:first-child {
   color: #2e6fb4;
 }
 
-/* Agrega margen y sombra para una apariencia de elevación (elevation) */
+/* Agrega margen y sombra para una apariencia de elevacion (elevation) */
 table {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 16px;
